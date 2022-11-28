@@ -1,7 +1,6 @@
 local ls = require("luasnip")
 vim.g.mapleader = " "
 
-vim.keymap.set("n", "<leader>z", "<cmd>Explore<CR>")
 vim.keymap.set("n", "<leader>w", "<cmd>write<CR>")
 vim.keymap.set("n", "<leader>f", "<cmd>Neoformat<CR>")
 

@@ -9,4 +9,4 @@ require("tee.color")
 require("tee.autopairs")
 require("tee.toggleterm")
 
-
+require("tee.telescope")

@@ -25,6 +25,10 @@ Plug ('fatih/vim-go', { ['do']= ':GoInstallBinaries' })
 Plug ("akinsho/toggleterm.nvim",{ tag = '*'})
 --Formatter
 Plug 'sbdchd/neoformat'
+--Telescope
+Plug 'nvim-lua/plenary.nvim'
+Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.0' })
+Plug 'nvim-telescope/telescope-file-browser.nvim'
 
 vim.call('plug#end')
 
