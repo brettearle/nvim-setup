@@ -6,7 +6,7 @@
       return vim.o.columns * 0.3333
     end
   end,
-    open_mapping = [[<leader>x]],
+    open_mapping = [[``]],
     hide_numbers = true,
     shade_filetypes = {},
     shade_terminals = true,
@@ -14,7 +14,7 @@
     start_in_insert = true,
     insert_mappings = true,
     persist_size = true,
-    direction = "vertical",
+    direction = "float",
     close_on_exit = true,
     shell = vim.o.shell,
     float_opts = {

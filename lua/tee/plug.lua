@@ -3,6 +3,7 @@ local Plug = vim.fn['plug#']
 vim.call('plug#begin', '~/.config/nvim/plugged')
 Plug ('tomasiser/vim-code-dark')
 Plug ('kyoz/purify', { rtp= 'vim' })
+Plug "rebelot/kanagawa.nvim"
 -- lsp set up
 Plug ('neovim/nvim-lspconfig')
 Plug 'neovim/nvim-lspconfig'
