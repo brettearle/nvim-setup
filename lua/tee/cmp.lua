@@ -1,7 +1,6 @@
 vim.cmd([[set completeopt=menu,menuone,noselect]])
   -- Set up nvim-cmp.
   local cmp = require'cmp'
-
   cmp.setup({
     snippet = {
       -- REQUIRED - you must specify a snippet engine
@@ -15,8 +14,8 @@ vim.cmd([[set completeopt=menu,menuone,noselect]])
     },
 
     window = {
-      -- completion = cmp.config.window.bordered(),
-      -- documentation = cmp.config.window.bordered(),
+      completion = cmp.config.window.bordered(),
+      documentation = cmp.config.window.bordered(),
     },
     mapping = cmp.mapping.preset.insert({
       ['<C-b>'] = cmp.mapping.scroll_docs(-4),
