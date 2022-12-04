@@ -32,6 +32,12 @@ Plug ('nvim-telescope/telescope.nvim', { tag = '0.1.0' })
 Plug 'nvim-telescope/telescope-file-browser.nvim'
 --Lualine
 Plug 'nvim-lualine/lualine.nvim'
+--RUST
+Plug 'neovim/nvim-lspconfig'
+Plug 'simrat39/rust-tools.nvim'
+
+-- Debugging
+Plug 'mfussenegger/nvim-dap'
 
 vim.call('plug#end')
 
