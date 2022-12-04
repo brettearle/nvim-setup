@@ -1,5 +1,5 @@
 - List of the custom key maps
-LEADER = <space>
+  LEADER = <space>
 
 --Snippets
 <c-k> jumps to next node in a snippet
@@ -8,14 +8,16 @@ LEADER = <space>
 <leader><leader>s resources snippets
 
 --enter telescope file browser
-<leader>z 
+<leader>z
 
 --ToggleTerm
 <``> opens terminal popup
-
 
 --cmp window moving
 <c-n> next item
 <c-p> prev item
 <CR> use current selection
 <ESC> close window with no action
+
+--better half page jumps
+<C-d> <C-u>

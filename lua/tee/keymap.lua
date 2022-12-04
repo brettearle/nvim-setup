@@ -10,6 +10,10 @@ vim.keymap.set({"i","s"}, "<c-k>", function()
 	end
 end, { silent = true })
 
+--better half page jump
+vim.keymap.set("n", "<C-d>", "<C-d>zz")
+vim.keymap.set("n", "<C-u>", "<C-u>zz")
+
 vim.keymap.set({"i", "s"}, "<c-j>", function()
 	if ls.jumpable(-1) then
 		ls.jump(-1)
