@@ -35,6 +35,7 @@ Plug 'nvim-lualine/lualine.nvim'
 --RUST
 Plug 'neovim/nvim-lspconfig'
 Plug 'simrat39/rust-tools.nvim'
+Plug 'rust-lang/rust.vim' 
 
 -- Debugging
 Plug 'mfussenegger/nvim-dap'
