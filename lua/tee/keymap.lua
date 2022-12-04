@@ -4,6 +4,7 @@ vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>w", "<cmd>Neoformat<CR><cmd>write<CR>")
 vim.keymap.set("n", "<leader>f", "<cmd>Neoformat prettierd<CR>")
 vim.keymap.set("n", "<leader>ee", "<cmd>bd<CR>")
+vim.keymap.set("n", "<leader>cd", ":cd %:p:h<CR>:pwd<CR>")
 vim.keymap.set({"i","s"}, "<c-k>", function()
 	if ls.expand_or_jumpable() then
 		ls.expand_or_jump()
