@@ -16,6 +16,7 @@ Plug 'L3MON4D3/LuaSnip'
 Plug 'saadparwaiz1/cmp_luasnip'
 --TreeSitter
 Plug ('nvim-treesitter/nvim-treesitter', {['do']= ':TSUpdate'})
+Plug('windwp/nvim-ts-autotag')
 --Completion plugs
 Plug('rafamadriz/friendly-snippets')
 --bracket Completion
@@ -40,6 +41,11 @@ Plug 'rust-lang/rust.vim'
 Plug 'mfussenegger/nvim-dap'
 --Comments
 Plug 'numToStr/Comment.nvim'
-
+--tab vertu=ical lines
+Plug 'lukas-reineke/indent-blankline.nvim'
+--color previewer
+Plug 'norcalli/nvim-colorizer.lua'
+--Git signs in files
+Plug 'lewis6991/gitsigns.nvim'
 vim.call('plug#end')
 
