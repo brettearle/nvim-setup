@@ -1,4 +1,6 @@
 local builtin = require('telescope.builtin')
+
+
 --find files in current directory
 vim.keymap.set('n', '<leader>ff', builtin.find_files, {})
 --grep currrent directory
